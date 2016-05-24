@@ -12,13 +12,13 @@ TODO
 
 TODO
 
-### <p>
+### Paragraphs
 
 ```handlebars
 {{#smart-text/p}}My sweet paragraph that doesn't have widows!{{/smart-text/p}}
 ```
 
-### <h1>, <h2>, <h3>, etc.
+### Headings
 
 ```handlebars
 {{#smart-text/h1}}Very Important Heading{{/smart-text/h1}}
