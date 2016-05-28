@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-smart-text'
+  name: 'ember-perfect-text'
 };
