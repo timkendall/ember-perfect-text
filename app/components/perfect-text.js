@@ -1,0 +1,1 @@
+export { default } from 'ember-perfect-text/components/perfect-text';

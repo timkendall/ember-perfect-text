@@ -1,5 +1,7 @@
 # Ember Perfect Text
 
+*UNDER DEVELOPMENT*
+
 No more manually adjusting container widths to get rid of those pesky widows! You can now tell your designer you've got them covered. Ember Perfect Text works by utilizing `Canvas.measureText()` and a little math to figure out where to insert line-breaks to nuke those widows. 
 
 ## Installation
@@ -15,17 +17,17 @@ TODO
 ### Paragraphs
 
 ```handlebars
-{{#perfect-p}}My sweet paragraph that doesn't have widows!{{/perfect-p}}
+{{#perfect-text tagName="p"}}My sweet paragraph that doesn't have widows!{{/perfect-text}}
 ```
 
 ### Headings
 
 ```handlebars
-{{#perfect-h1}}Very Important Heading{{/perfect-h1}}
+{{#perfect-text tagName="h1"}}Very Important Heading{{/perfect-text}}
 
-{{#perfect-h2}}Another Poignant Heading{{/perfect-h2}}
+{{#perfect-text tagName="h2"}}Another Poignant Heading{{/perfect-text}}
 
-{{#perfect-h3}}The Last Heading{{/perfect-h3}}
+{{#perfect-text tagName="h3"}}The Last Heading{{/perfect-text}}
 ```
 
 ## Running
